@@ -15,7 +15,6 @@ function AgregarTarea() {
    
     alert("Tarea registrada ");
 }
-
 function mostrarTareas() {
     let tareas = JSON.parse(localStorage.getItem("tareas")) || [];
     let cuerpoTabla = document.getElementById("cuerpoTabla");
