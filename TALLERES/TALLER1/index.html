@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+    <link rel="stylesheet" href="../TALLER1/styles.css">
+</head>
+<body>
+    <h1>Gestor de Tareas</h1>
+    <p>Agrega una nueva tarea por realizar.</p>
+    <div class="button-container">
+        <input type="text" id="texto" placeholder="Nueva tarea...">
+        <button id="addTaskBtn" onclick="AgregarTarea();">Agregar Tarea</button>
+        <a href="../TALLER1/listaTareas.html"><button id="viewTasksBtn">Ir a la lista de tareas</button></a>  
+    </div>
+    <ul id="taskList"></ul>
+    <script src="../TALLER1/app.js"></script>
+</body>
+</html>
